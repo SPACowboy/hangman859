@@ -10,3 +10,7 @@ print("My 5 favorite fruits:", word_list)
 random_fruit = random.choice(fruits_list)
 print("Random fruit:", random_fruit)
 
+word = random.choice(fruits_list)
+
+# Step 3: Print the randomly chosen word
+print("Random fruit:", word)
