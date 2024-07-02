@@ -8,3 +8,4 @@ Working with random word selection and user input.
 Implementing game logic and turn management.
 Creating an interactive and engaging user experience with text output.
 Understanding and applying basic Python concepts like loops, conditional statements, and functions.
+Added my first code in python.
