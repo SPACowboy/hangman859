@@ -40,6 +40,7 @@ def check_guess(self, guess):
 
         if guess in self.word:
             print(f"Good guess! '{guess}' is in the word.")
+
             return True  # Indicate a correct guess
         else:
             return False  # Indicate an incorrect guess
