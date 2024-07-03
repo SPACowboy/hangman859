@@ -24,5 +24,3 @@ class Hangman:
         self.word_list = word_list  # Store the word list for reference
         self.list_of_guesses = []  # Empty list to store guessed letters
 
-# Example usage (assuming you have a word list named 'words')
-# game = Hangman(words)  # Assuming 'words' is a list of words
