@@ -45,3 +45,23 @@ def check_guess(self, guess):
             return False  # Indicate an incorrect guess
 
 # We'll create the ask_for_input method in the next step
+
+def ask_for_input(self):
+        """
+        Prompts the user for a guess and validates it.
+        """
+
+        while True:
+            guess = input("Guess a letter: ")
+
+            if not guess.isalpha() or len(guess) != 1:
+                print("Invalid letter. Please, enter a single alphabetical character.")
+            elif guess in self.list_of_guesses:
+                print("You already tried that letter!")
+            else:
+                # Valid guess, check if it's in the word and update list_of_guesses
+                is_correct_guess = self.check_guess(guess)
+                self.list_of_guesses.append(guess)
+
+                # Potential additional logic based on guess result (e.g., update word_guessed)
+                return is_correct_guess
